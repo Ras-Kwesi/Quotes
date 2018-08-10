@@ -10,4 +10,7 @@ export class AppComponent {  // Quote object is declared
   quote = [
   new Quote (0,"","",""),
   ]
+
+  constructor(){}
+  ngOnInit() {}
 }
