@@ -13,7 +13,8 @@ import { QuotesFormComponent } from './quotes-form/quotes-form.component';
     QuotesFormComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
