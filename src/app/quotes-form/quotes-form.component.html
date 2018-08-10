@@ -1,10 +1,11 @@
 <div class="row">
   <div class="col-md-6">
 
-    <form>
+    <form (ngSubmit)='submitGoal()' #quoteForm='ngForm'> <!--Declaring it an anular form-->
       <div class="form-group">
         <label for="enterquote">Quote</label>
-        <input type="text" class="form-control" id="quoteentry" placeholder="I quote therefore I am">
+        <input type="text" class="form-control" id="quoteentry" [(ngModel)]="quote.quotation" name="quoteentry" placeholder="I quote therefore I am">
+        Display {{quote.quotation}}
       </div>
       <div class="form-group">
         <label for="entername">Thinker</label>
@@ -14,7 +15,7 @@
           <label for="enterposter">Name</label>
           <input type="text" class="form-control" id="posterentry" placeholder="I am..">
       </div>
-      <button type="click" class="btn btn-danger">Add</button>
+      <button type="submit" class="btn btn-danger">Add</button>
     </form>
   </div>
 </div>

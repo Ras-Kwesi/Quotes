@@ -3,7 +3,7 @@
   
   <p>New Quote</p>
 </div>
-<app-quotes-form></app-quotes-form> <!--The form component selector is attached to the parent, quote component -->
+<app-quotes-form (addQuote)="addNewquote($event)"></app-quotes-form> <!--The form component selector is attached to the parent, quote component -->
 
 <hr>
 <h2>Quotes</h2>
