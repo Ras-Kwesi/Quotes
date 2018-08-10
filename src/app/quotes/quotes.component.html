@@ -3,7 +3,15 @@
   
   <p>New Quote</p>
 </div>
-<app-quotes-form></app-quotes-form>
+<app-quotes-form></app-quotes-form> <!--The form component selector is attached to the parent, quote component -->
 
 <hr>
 <h2>Quotes</h2>
+
+<ul>
+  <div class="card">
+    <div *ngFor="let quote of quotes;let i = index">
+      <li>{{quote.quotation}}, {{quote.author}},{{quote.poster}} </li>
+    </div>
+  </div>
+</ul>
