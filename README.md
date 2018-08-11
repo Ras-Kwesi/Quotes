@@ -63,11 +63,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## Live Site
+
+To test the software functionality, follow the link for a live setup https://ras-kwesi.github.io/Quotes/
+
 ## Authors
 
-* **Kwesi Makonnen** - *Initial work* - [PurpleBooth](https://github.com/Purpl)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Kwesi Makonnen** - *Initial work* - [PurpleBooth](https://github.com/Ras-Kwesi)
 
 ## License
 
