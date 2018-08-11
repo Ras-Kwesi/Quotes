@@ -69,7 +69,7 @@ To test the software functionality, follow the link for a live setup https://ras
 
 ## Authors
 
-* **Kwesi Makonnen** - *Initial work* - [PurpleBooth](https://github.com/Ras-Kwesi)
+* **Kwesi Makonnen** - *GitHub Profile Link* - [Ras-Kwesi](https://github.com/Ras-Kwesi)
 
 ## License
 
