@@ -12,11 +12,10 @@ export class QuotesComponent implements OnInit {
   ]
   @Input() quote:Quote;
 
-  addNewQuote(goal){
-    let goalLength = this.quotes.length;
-    goal.id=goalLength+1;
-    goal.completeDate = new Date(goal.completeDate)
-    this.quotes.push(goal)
+  addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    quote.id=quoteLength+1;
+    this.quotes.push(quote)
 
   }
 

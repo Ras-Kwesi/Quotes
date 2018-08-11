@@ -9,9 +9,9 @@
 <h2>Quotes</h2>
 
 <ul>
-  <div class="card">
+  <div>
     <div *ngFor="let quote of quotes;let i = index">
-      <li><em>{{quote.quotation}}</em> by {{quote.author}}, <strong>{{quote.poster}}</strong> </li>
+      <li class="card"><em>{{quote.quotation}}</em> by {{quote.author}}, <strong>{{quote.poster}}</strong> </li>
     </div>
   </div>
 </ul>

@@ -1,7 +1,9 @@
 <div class="row">
   <div class="col-md-6">
 
-    <form (ngSubmit)='submitGoal()' #quoteForm='ngForm'> <!--Declaring it an anular form-->
+    <!--Declaring it an angular form-->
+    <!--Angular submit attribute that handles the submit event of our form-->
+    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'> 
       <div class="form-group">
         <label for="enterquote">Quote</label>
         <!--angular model attribute called and assigned to newQuote to send data to quote ts and back-->
