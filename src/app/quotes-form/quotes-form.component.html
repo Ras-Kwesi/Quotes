@@ -4,8 +4,10 @@
     <form (ngSubmit)='submitGoal()' #quoteForm='ngForm'> <!--Declaring it an anular form-->
       <div class="form-group">
         <label for="enterquote">Quote</label>
-        <input type="text" class="form-control" id="quoteentry" [(ngModel)]="quote.quotation" name="quoteentry" placeholder="I quote therefore I am">
-        Display {{quote.quotation}}
+        <!--angular model attribute called and assigned to newQuote to send data to quote ts and back-->
+        <input type="text" class="form-control" id="quoteentry" [(ngModel)]="newQuote.quotation" name="quoteentry" placeholder="I quote therefore I am"> 
+        <!--Two way data binding trial-->
+        {{newQuote.quotation}}
       </div>
       <div class="form-group">
         <label for="entername">Thinker</label>

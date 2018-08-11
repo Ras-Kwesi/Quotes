@@ -7,7 +7,10 @@ import {Quote} from '../quote';
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-  @Input() quote:Quote;
+  quotes = [
+    new Quote (1,"What doesn't kill us makes us stronger!","Freidrich Neitzsche","Dev"),
+  ]
+  
   
   
   constructor() { }
