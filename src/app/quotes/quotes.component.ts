@@ -13,8 +13,6 @@ export class QuotesComponent implements OnInit {
   @Input() quote:Quote;
 
   addNewQuote(quote){
-    let quoteLength = this.quotes.length;
-    quote.id=quoteLength+1;
     this.quotes.push(quote)
 
   }
