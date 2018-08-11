@@ -6,7 +6,7 @@
         <label for="enterquote">Quote</label>
         <!--angular model attribute called and assigned to newQuote to send data to quote ts and back-->
         <input type="text" class="form-control" id="quoteentry" [(ngModel)]="newQuote.quotation" name="quoteentry" placeholder="I quote therefore I am"> 
-        <!--Two way data binding trial-->
+        <!--Two way data binding-->
         {{newQuote.quotation}}
       </div>
       <div class="form-group">
@@ -17,7 +17,7 @@
           <label for="enterposter">Name</label>
           <input type="text" class="form-control" id="posterentry" placeholder="I am..">
       </div>
-      <button type="submit" class="btn btn-danger">Add</button>
+      <button type="submit" class="btn btn-danger" >Add</button>
     </form>
   </div>
 </div>

@@ -3,15 +3,15 @@
 
   <p>New Quote</p>
 </div>
-<app-quotes-form (addQuote)="addNewquote($event)"></app-quotes-form> <!--The form component selector is attached to the parent, quote component -->
+<app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form> <!--The form component selector is attached to the parent, quote component -->
 
 <hr>
 <h2>Quotes</h2>
 
 <ul>
-  <div class="car">
+  <div class="card">
     <div *ngFor="let quote of quotes;let i = index">
-      <li>{{quotes.quotation}}, {{quotes.author}},{{quotes.poster}} </li>
+      <li><em>{{quote.quotation}}</em> by {{quote.author}}, <strong>{{quote.poster}}</strong> </li>
     </div>
   </div>
 </ul>
