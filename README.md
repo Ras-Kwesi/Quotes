@@ -1,6 +1,43 @@
-# Quotes
+# Quotes Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+This is a website that can generate new quotes from a form into a list.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+Angular CLI & Angular v6.1.2
+NodeJs
+Typescript ES6
+
+
+### Installing
+
+* Node installation
+    * Visit the node download page 
+        https://nodejs.org/en/download/package-manager/
+
+    * Install Node.js via package manager link, it will be found on the page.
+    * Install Node for your system.
+    * Confirming Installation.
+        james@james-Inspiron-15-3552:~$ npm -v
+        james@james-Inspiron-15-3552:~$ node -v
+
+* Angular Installation
+    * james@james-Inspiron-15-3552:~$ npm install -g @angular/cli
+    * Run - [james@james-Inspiron-15-3552:~$ ng] to display angular commands to prove its installation.
+
+* TypeScript Installation
+    * Run [$ npm install -g typescript]
+    * Run [$ tsc -v] to check version and confirm installation
+
+## Deployment
+1. Run [npm i -g angular-cli-ghpages] globally for gh-pages Angular deployment tool. Only do this once.
+2. Run [$ ng build --prod --base-href="https://GithubUserName.github.io/GithubREPO/"] to create a dist       folder that is used for production.
+3. Remove the dist/ line in our gitignore folder.
+4. Run [sudo npx ngh --dir=dist/project-name] to deploy to github pages.
 
 ## Development server
 
@@ -25,3 +62,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Authors
+
+* **Kwesi Makonnen** - *Initial work* - [PurpleBooth](https://github.com/Purpl)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
