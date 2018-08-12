@@ -8,7 +8,7 @@ import {Quote} from '../quote';
 })
 export class QuotesComponent implements OnInit {
   quotes = [
-    new Quote (1,"What doesnt kill us makes us stronger!","Freidrich Neitzsche","Dev")
+    new Quote (1,"What doesnt kill us makes us stronger!","Freidrich Neitzsche","Dev",new Date(1896,2,29) )
   ]
   @Input() quote:Quote;
 

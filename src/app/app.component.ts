@@ -8,7 +8,7 @@ import {Quote} from './quote'; // importing the quote component to parent compon
 })
 export class AppComponent {  // Quote object is declared
   quotes = [
-    new Quote (1,"What doesn't kill us makes us stronger!","Freidrich Neitzsche","Dev"),
+    new Quote (1,"What doesn't kill us makes us stronger!","Freidrich Neitzsche","Dev",new Date(1896,2,29)),
     ]
 
   constructor(){}
