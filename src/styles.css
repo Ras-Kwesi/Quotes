@@ -21,4 +21,5 @@ h1 {
 .btn {
     background-color: gold;
     color: white;
+    width: 150px;
 }
