@@ -1,3 +1,8 @@
 export class Quote {  // Making quote class available to components
-     constructor(public id:number, public quotation:string, public author:string, public poster:string){}
+    public showQuote:boolean;
+    public showDetails:boolean;
+     constructor(public id:number, public quotation:string, public author:string, public poster:string){
+        this.showDetails=false
+        this.showQuote=false
+    }
 }

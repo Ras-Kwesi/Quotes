@@ -17,6 +17,9 @@ export class QuotesComponent implements OnInit {
 
   }
 
+  displayDetails(index){
+    this.quotes[index].showDetails=!this.quotes[index].showDetails
+  }
   
   
   constructor() { }
