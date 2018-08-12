@@ -7,6 +7,7 @@ import { QuotesComponent } from './quotes/quotes.component';
 import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { UpvortDirective } from './upvort.directive';
+import { TimePassedPipe } from './time-passed.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UpvortDirective } from './upvort.directive';
     QuotesComponent,
     QuotesFormComponent,
     QuoteDetailsComponent,
-    UpvortDirective
+    UpvortDirective,
+    TimePassedPipe
   ],
   imports: [
     BrowserModule,
