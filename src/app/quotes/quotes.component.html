@@ -13,7 +13,7 @@
     <div *ngFor="let quote of quotes;let i = index">
       <li class="card"><em>{{quote.quotation}}</em>
       <app-quote-details *ngIf='quote.showDetails' [quote]='quote'></app-quote-details>
-      <button (click)='displayDetails(i)'>Display Details</button>
+      <button (click)='displayDetails(i)' class="btn btn">Display Details</button>
       </li>
     </div>
   </div>
