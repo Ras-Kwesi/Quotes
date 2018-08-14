@@ -15,6 +15,7 @@
       <app-quote-details *ngIf='quote.showDetails' [quote]='quote'></app-quote-details>
       </li>
       <button (click)='displayDetails(i)' class="btn btn">Display Details</button>
+      <button (click)='deleteGoal(i)' class="btn btn-danger" id="delete-btn">Delete Quote</button>
     </div>
   </div>
 </ul>
