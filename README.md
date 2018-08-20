@@ -22,22 +22,26 @@ Typescript ES6
     * Install Node.js via package manager link, it will be found on the page.
     * Install Node for your system.
     * Confirming Installation.
-        james@james-Inspiron-15-3552:~$ npm -v
-        james@james-Inspiron-15-3552:~$ node -v
+         `npm -v`
+        `node -v`
 
 * Angular Installation
-    * james@james-Inspiron-15-3552:~$ npm install -g @angular/cli
-    * Run - [james@james-Inspiron-15-3552:~$ ng] to display angular commands to prove its installation.
+    * `npm install -g @angular/cli`
+    * Run  `ng` to display angular commands to prove its installation.
 
 * TypeScript Installation
-    * Run [$ npm install -g typescript]
-    * Run [$ tsc -v] to check version and confirm installation
+    * Run `npm install -g typescript`
+    * Run `tsc -v` to check version and confirm installation
 
 ## Deployment
-1. Run [npm i -g angular-cli-ghpages] globally for gh-pages Angular deployment tool. Only do this once.
-2. Run [$ ng build --prod --base-href="https://GithubUserName.github.io/GithubREPO/"] to create a dist       folder that is used for production.
+1. Run `npm i -g angular-cli-ghpages` globally for gh-pages Angular deployment tool. Only do this once.
+2. Run [`ng build --prod --base-href="https://GithubUserName.github.io/GithubREPO/"` to create a dist       folder that is used for production.
 3. Remove the dist/ line in our gitignore folder.
-4. Run [sudo npx ngh --dir=dist/project-name] to deploy to github pages.
+4. Run `sudo npx ngh --dir=dist/project-name` to deploy to github pages.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Development server
 
