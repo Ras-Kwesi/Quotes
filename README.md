@@ -22,8 +22,13 @@ Typescript ES6
     * Install Node.js via package manager link, it will be found on the page.
     * Install Node for your system.
     * Confirming Installation.
+<<<<<<< HEAD
          `npm -v`
         `node -v`
+=======
+        `~$ npm -v`
+         `node -v`
+>>>>>>> bd706aae3f39fb83ad79a5649b0545f8f4cc0d34
 
 * Angular Installation
     * `npm install -g @angular/cli`
@@ -56,7 +61,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
-
+++++
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
