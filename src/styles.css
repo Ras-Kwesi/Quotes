@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
 .card {
     color: black;
     background-color: aqua;
@@ -23,3 +26,5 @@ h1 {
     color: white;
     width: 150px;
 }
+
+@import "~bootstrap/dist/css/bootstrap.css"
