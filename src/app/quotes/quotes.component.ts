@@ -8,9 +8,10 @@ import {Quote} from '../quote';
 })
 export class QuotesComponent implements OnInit {
   quotes = [
-    new Quote (1,"What doesnt kill us makes us stronger!","Freidrich Neitzsche","Dev",new Date(1896,2,29) )
+    new Quote (1,"What doesnt kill us makes us stronger!","Freidrich Neitzsche","Dev",new Date(1896,2,29),0)
   ]
   @Input() quote:Quote;
+
 
   addNewQuote(quote){
     this.quotes.push(quote)
@@ -28,6 +29,10 @@ export class QuotesComponent implements OnInit {
         this.quotes.splice(index)
       }
     }
+  }
+
+  Vote(index) {
+    this.quotes[index].vote ++;
   }
   
   constructor() { }

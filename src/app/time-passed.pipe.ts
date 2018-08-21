@@ -6,7 +6,9 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class TimePassedPipe implements PipeTransform {
 
   transform(value: any) {
-    let today:Date = new Date();;
+    let today:Date = new Date();
+    let timePassed:Date 
   }
 
+  
 }
