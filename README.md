@@ -22,13 +22,8 @@ Typescript ES6
     * Install Node.js via package manager link, it will be found on the page.
     * Install Node for your system.
     * Confirming Installation.
-<<<<<<< HEAD
-         `npm -v`
-        `node -v`
-=======
         `~$ npm -v`
          `node -v`
->>>>>>> bd706aae3f39fb83ad79a5649b0545f8f4cc0d34
 
 * Angular Installation
     * `npm install -g @angular/cli`
